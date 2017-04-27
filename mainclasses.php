@@ -2,11 +2,9 @@
 namespace mainClass;
 class dBaseFunctions {
   function dBaseConnect() {
-     
+     return NULL;
   }
 }
 $object = new \mainClass\dbaseFunctions;
-
-print_r( $object->dbaseConnect());
-
+echo json_encode($object->dbaseConnect());
 ?>

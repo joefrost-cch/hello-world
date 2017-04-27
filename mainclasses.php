@@ -1,12 +1,12 @@
 <?php
 namespace mainClass;
-class dbaseFunctions {
-  function dbaseConnect() {
+class dBaseFunctions {
+  function dBaseConnect() {
      
   }
 }
 $object = new \mainClass\dbaseFunctions;
 
-echo $object->dbaseConnect();
+print_r( $object->dbaseConnect());
 
 ?>
